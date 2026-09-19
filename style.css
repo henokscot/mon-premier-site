@@ -1,0 +1,103 @@
+/* ===== STYLE GÉNÉRAL ===== */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f7fb;
+    color: #222;
+    line-height: 1.6;
+}
+
+/* ===== EN-TÊTE ===== */
+
+header {
+    background: #111827;
+    color: white;
+    text-align: center;
+    padding: 70px 20px;
+}
+
+header h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 20px;
+}
+
+/* ===== CONTENU ===== */
+
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+/* ===== CARTES ===== */
+
+.card {
+    background: white;
+    padding: 30px;
+    margin-bottom: 25px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+.card h2 {
+    margin-bottom: 15px;
+}
+
+/* ===== BOUTONS ===== */
+
+button {
+    margin-top: 20px;
+    padding: 14px 28px;
+    border: none;
+    border-radius: 8px;
+    background: #111827;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.85;
+}
+
+/* ===== PIED DE PAGE ===== */
+
+footer {
+    margin-top: 50px;
+    padding: 25px;
+    background: #111827;
+    color: white;
+    text-align: center;
+}
+
+/* ===== TÉLÉPHONE ===== */
+
+@media (max-width: 600px) {
+
+    header h1 {
+        font-size: 36px;
+    }
+
+    header p {
+        font-size: 17px;
+    }
+
+    .container {
+        padding: 15px;
+    }
+
+    .card {
+        padding: 25px 15px;
+    }
+}
