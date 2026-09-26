@@ -166,3 +166,87 @@ footer {
         padding: 25px 15px;
     }
 }
+
+/* ===== SECTION PRODUITS ===== */
+
+.products-section {
+    max-width: 1100px;
+    margin: 60px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.products-section h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.section-description {
+    color: #666;
+    margin-bottom: 35px;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.product-card {
+    background: white;
+    padding: 30px 20px;
+    border-radius: 16px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    transition: 0.3s;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-icon {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.product-card h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.product-card p {
+    color: #666;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.price {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.buy-button {
+    display: inline-block;
+    background: #111827;
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.buy-button:hover {
+    opacity: 0.85;
+}
+
+
+/* ===== PRODUITS SUR TÉLÉPHONE ===== */
+
+@media (max-width: 800px) {
+
+    .products {
+        grid-template-columns: 1fr;
+    }
+
+}
